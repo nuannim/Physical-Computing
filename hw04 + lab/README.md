@@ -1,11 +1,11 @@
 # Homework 04
 ## HW 04-01 T-Shirt Sales
 
-### question 1
+### question
 ![HW 04-01](images/HW04-01.1.png)
 ![HW 04-01](images/HW04-01.2.png)
 
-### code 1
+### code
 ```c
 #include <stdio.h>
 #include <math.h>
@@ -45,11 +45,11 @@ int main() {
 
 ## HW 04-02 Valid Triangle
 
-### question 2
+### question
 ![HW 04-02](images/HW04-02.1.png)
 ![HW 04-02](images/HW04-02.2.png)
 
-### code 2
+### code
 ```c
 #include <stdio.h>
 
