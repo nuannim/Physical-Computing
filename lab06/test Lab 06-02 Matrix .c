@@ -42,14 +42,31 @@ int main() {
 //         printf("\n");
 //     }
 
-    double sum00 = 0;
+
     printf("========================\n");
 //^ ans[0][0]
     for (int j = 0; j < 3; j++) {
         double sum_a = m1[0][j] * m2[j][0];
-        sum00 = sum00 + sum_a;
+        ans[0][0] = ans[0][0] + sum_a;
     }
-    printf("%lf", sum00);
+    printf("%lf ", ans[0][0]);
+
+//^ ans[0][1]
+    for (int j = 0; j < 3; j++) {
+        double sum_a = m1[0][j] * m2[j][1];
+        ans[0][1] = ans[0][1] + sum_a;
+    }
+    printf("%lf ", ans[0][1]);
+
+    printf("\n");
+
+//^ ans[1][0]
+    for (int j = 0; j < 3; j++) {
+        double sum_a = m1[1][j] * m2[j][0];
+        ans[1][0] = ans[1][0] + sum_a;
+    }
+    printf("%lf ", ans[1][0]);
+
 
     return 0;
 }

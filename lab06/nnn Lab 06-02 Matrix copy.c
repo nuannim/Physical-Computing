@@ -43,11 +43,25 @@ int main() {
     }
 
     printf("========================\n");
-    // for (int i = 0; i < 3; i++) {
-    //     for (int j = 0; j < 3; j++) {
-    //         ans[i][j]
-    //     }
-    // }
+
+//^ a[i][j]
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            for (int k = 0; k < 3; k++) {
+                double sum = m1[i][k] * m2[k][j];
+                ans[i][j] = ans[i][j] + sum;
+            }
+        }
+    }
+
+//^ printf ans
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("[i=%d/j=%d]", i, j);
+            printf("%.2lf ", ans[i][j]);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
