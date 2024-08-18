@@ -9,16 +9,9 @@ int main() {
     scanf("%d", &degree);
     scanf(" %d", &u);
 
-    // printf("%d\n", degree);
-    // printf("%d", u);
-
     radius = (degree * pi) / 180;
 
-    // printf("%lf", radius);
-
     h = ((u * u) * (sin(radius) * sin(radius))) / (2 * 9.81);
-
-    // printf("\n\nh = %.4lf", h);
 
     printf("theta (degree) : %d\n", degree);
     printf("u (m/s) : %d\n", u);
