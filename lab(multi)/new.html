@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>New CSS</title>
+        <link href="newcss.css" rel="stylesheet" type="text/css">
+    </head>
+
+
+    <h1>Hi there</h1>
+    <!-- <svg width="200" height="200" viewBox="0 0 200 200"> -->
+        <!------------ <circle cx="100" cy="100" r="50" fill="none" stroke="red" stroke-width="5" /> -->
+        <!-- <circle cx="100" cy="100" r="50" class="red-circle"/> -->
+    <!-- </svg> -->
+
+    <!-- <svg  -->
+        <!-- width="200" -->
+        <!-- height="200" -->
+        <!-- viewBox="0 0 200 200" -->
+    <!-- > -->
+    <!-- <rect -->
+        <!-- x="25" -->
+        <!-- y="50" -->
+        <!-- width="150" -->
+        <!-- height="100" -->
+    <!-- /> -->
+    <!-- </svg> -->
+
+    <svg 
+        width="200"
+        height="200"
+        viewBox="0 0 200 200">
+        <path
+            class="line"
+            d="M 50, 100 L 150, 100"
+        />
+    </svg>
+
+    <svg width="200" height="200" viewBox="0 0 200 200">
+        <path
+            class="line"
+            d="
+                M 50, 40 L 150, 40
+                M 50, 100 L 150, 100
+                M 50, 160 L 150, 160"
+        />
+    </svg>
+
+    <svg width="200" height="200" viewBox="-15 -15 30 30">
+        <circle r="6" />
+        <path id="ray" d="M 0, 11 L 0, 14" />
+        <use href="#ray" transform="rotate(45)"/>
+        <use href="#ray" transform="rotate(90)"/>
+        <use href="#ray" transform="rotate(135)"/>
+        <use href="#ray" transform="rotate(180)"/>
+        <use href="#ray" transform="rotate(225)"/>
+        <use href="#ray" transform="rotate(270)"/>
+        <use href="#ray" transform="rotate(315)"/>
+    </svg>
+
+
+
+
+</html>

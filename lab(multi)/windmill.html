@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <svg width="200" height="400">
+
+            <g id="container" transform="translate(100 150)">
+            
+                <g id="windmill_head">
+            
+                <circle r="8" />
+            
+                <path
+                
+                id="arm"
+                d="
+                    M -7-20
+                    
+                    C -7-10 7 -10 7 -20
+                    
+                    L 2 -80
+                    
+                    L -2 -80" />
+                
+                <use href="#arm" transform="rotate(+120)" />
+                <use href="#arm" transform="rotate(-120)" />
+                
+                </g>
+                
+            </g>
+            
+            <path d="M 93 300 L 107 300 L 103 165 L 97 165" />
+            
+            </svg>
+
+            <svg width="450" height="450">
+                <path
+                d="M 100 350 C 70 100, 380 100, 350 350"
+                stroke="red" stroke-width="20" fill="none" />
+            </svg>
+    </body>
+
+</html>
