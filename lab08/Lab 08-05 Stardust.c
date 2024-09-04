@@ -18,7 +18,7 @@ int main() {
         scanf(" %lf", &num[i]);
     }
 
-    printf("\n===\n");
+    // printf("\n===\n");
 
     while (sort != round - 1)
     {
@@ -41,21 +41,27 @@ int main() {
     }
 
     // printf("sum = %lf \n", sum);
-    printf("avg = %.2lf \n", sum / round);
+    printf("%.2lf\n", sum / round);
 
+
+
+    // for (int i = 0; i < round; i++) {
+    //     printf("%.2lf, ", num[i]);
+    // }
+    // printf("\nsort = %d", sort);
+
+
+    if (round % 2 == 0)
+    {
+        printf("%.2lf\n", ((num[round/2-1]) + (num[round/2])) / 2);
+    } else {
+        printf("%.2lf\n", num[(int)(((double)round/2) - 0.5)]);
+    }
+    
     for (int i = 0; i < round; i++) {
         sum_std += (num[i]-(sum / round)) * (num[i]-(sum / round));
-
     }
 
-    printf("std = %.2lf\n", sqrt(sum_std / round));
-
-    for (int i = 0; i < round; i++) {
-        printf("%.2lf, ", num[i]);
-    }
-    printf("\nsort = %d", sort);
-
-// ! เหลือ mode
-
+    printf("%.2lf", sqrt(sum_std / round));
     return 0;
 }
