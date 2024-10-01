@@ -1,6 +1,6 @@
 const int RED = 13;
 const int GREEN = 12;
-const int BLUE = 8;
+const int BLUE = 11;
 
 const int SEC = 1000;
 
@@ -41,7 +41,7 @@ void loop() {
   digitalWrite(BLUE, HIGH);
   delay(1000);
 
-  // magenta ทำไมไม่ออก??? หรือตามองไม่เห็นเหรอ
+  // magenta ทำไมไม่ออก??? หรือตามองไม่เห็นเหรอ ทำได้ละค่ะน้อง
   digitalWrite(RED, LOW);
   digitalWrite(GREEN, HIGH);
   digitalWrite(BLUE, LOW);
@@ -54,7 +54,7 @@ void loop() {
   delay(SEC);
 
   // white
-  digitalWrite(RED, HIGH);
+  digitalWrite(RED, LOW);
   digitalWrite(GREEN, LOW);
   digitalWrite(BLUE, LOW);
   delay(SEC);

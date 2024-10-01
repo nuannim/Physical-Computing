@@ -1,10 +1,18 @@
-const int A = 13;
-const int B = 12;
-const int C = 11;
-const int D = 10;
-const int E = 9;
-const int F_P = 8;
-const int G = 7;
+// const int A = 13;
+// const int B = 12;
+// const int C = 11;
+// const int D = 10;
+// const int E = 9;
+// const int F_P = 8;
+// const int G = 7;
+
+const int A = 2;
+const int B = 3;
+const int C = 4;
+const int D = 5;
+const int E = 6;
+const int F_P = 7;
+const int G = 9;
 
 const int SEC = 1000;
 
