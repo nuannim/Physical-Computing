@@ -1,3 +1,5 @@
+#include <MPU6050.h>
+
 const int RED = 13;
 const int GREEN = 12;
 const int BLUE = 11;
